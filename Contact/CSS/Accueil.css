@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a{
+  margin:0px;
+
+}
+.logo {
+  width: 210px;
+  height: 210px;
+  margin-top: -50px;
+}
+
+h3{
+  margin:0px;
+  color:#fff;
+}
+.wrapper{
+  text-align:center;
+background-color: #1b1919;
+}
+.fa-home {
+  color : #8f1537;
+}
+.fa-globe-americas{
+  color :#616f39;
+}
+.fa-map-marker-alt{
+  color: #d93025 ;
+}
+.fa-comments{
+  color: #f69314;
+}
+.tabs{
+  margin-top:50px;
+  margin-bottom: 20px;
+  font-size:15px;
+  padding:0px;
+  list-style:none;
+  background:#fff;
+  box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+  display:inline-block;
+  border-radius:50px;
+  position:relative;
+}
+
+.tabs a{
+  text-decoration:none;
+  color: #777;
+  text-transform:uppercase;
+  padding:10px 20px;
+  display:inline-block;
+  position:relative;
+  z-index:1;
+  transition-duration:0.6s;
+}
+.tabs a i{
+  margin-right:5px;
+}
+.title-h5, .captionn {
+  font-size: 35px;
+}
+.contact{
+    background-color: #1b1919 ;
+  }
+.fa-facebook{
+  color: #1D3C78 ;
+  margin-right: 20px;
+  margin-top: 5px;
+  clear: both;
+}
+.fa-twitter-square{
+  color :#1c94e0;
+    margin-right: 20px;
+    clear: both;
+}
+.fa-google-plus-square{
+  color :#d93025;
+    margin-right: 20px;
+    clear: both ;
+}
+.copyright{
+   margin-bottom: -30px;
+   color : #fff;
+   text-align: center;
+ }
+@media only screen and (max-width: 850px) {
+  .copyright{
+  float: right;
+  margin-right: -5px;
+}
+}
